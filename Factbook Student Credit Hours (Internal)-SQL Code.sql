@@ -1,7 +1,7 @@
 
 
 
-------SQL code used for Factbook : Student Credit Hours(Internal as of Jan 28, 2026
+------SQL code used for Factbook : Student Credit Hours over a preiod of 5 years as of Jan 28, 2026
 
 
 
@@ -243,3 +243,4 @@ INNER JOIN
 ) q2
     ON q1.student_cid     = q2.student_cid
    AND q1.sect_term_code = q2.snapshot_term_code;
+
